@@ -10,6 +10,11 @@ except Exception:
     core_minimax_search = None
     core_alphabeta_search = None
 
+# Optional Q-learning agent
+try:
+    from q_learning import QLearningAgent
+except Exception:
+    QLearningAgent = None
 infinity = float('inf')
 
 
@@ -26,6 +31,19 @@ class Game:
         self.ai_algo = ai_algo
         # If True, the human player is controlled by an AI (AI vs AI mode)
         self.player_is_ai = player_is_ai
+        # Q-learning agent instance (optional)
+        self.q_agent = None
+        if self.ai_algo == 'qlearning' and QLearningAgent is not None:
+            try:
+                self.q_agent = QLearningAgent()
+                # Try to load a pre-trained table if present
+                try:
+                    self.q_agent.load('q_table.pkl')
+                except Exception:
+                    # no pre-trained table available — continue with default random Q
+                    pass
+            except Exception:
+                self.q_agent = None
 
     def is_game_over(self):
         if self.has_winning_state():
@@ -86,6 +104,32 @@ class Game:
         import time
         print("\nAI's Move...")
         temp_position = self.current_state.ai_position
+        # If using Q-learning agent, use it to choose action
+        if self.ai_algo == 'qlearning' and self.q_agent is not None:
+            # deterministic play in GUI: epsilon=0
+            column = self.q_agent.choose_action(self.current_state, self.first, epsilon=0.0)
+            if column is None:
+                # fallback: first legal move
+                fallback_child = None
+                for c in self.current_state.generate_children(self.first):
+                    fallback_child = c
+                    break
+                if fallback_child is None:
+                    return
+                self.current_state = fallback_child
+                column = (temp_position ^ self.current_state.ai_position).bit_length() - 1
+                column = column // 7 if column >= 0 else None
+            else:
+                # apply chosen column
+                new_ai_pos, new_mask = make_move(self.current_state.ai_position, self.current_state.game_position, column)
+                self.current_state = State(new_ai_pos, new_mask, self.current_state.depth + 1)
+
+            # No search metrics for Q-learning
+            print(f"[Q-Learning] Chosen column: {column}")
+            GUI.animateComputerMoving(self.board, column)
+            GUI.makeMove(self.board, GUI.BLACK, column)
+            return
+
         # choose search implementation depending on selected AI algorithm
         if self.ai_algo == 'plain':
             # use plain minimax (no alpha-beta). Use a smaller depth to avoid long delays.
@@ -124,7 +168,7 @@ class Game:
         # Print AI metrics
         algo_name = "AlphaBeta" if self.ai_algo == 'alphabeta' else "Plain Minimax"
         print(f"[{algo_name}] Depth: {depth} | Nodes Explored: {metrics['nodes_explored']} | Nodes Pruned: {metrics['nodes_pruned']} | Time: {elapsed_time:.4f}s")
-        
+
         GUI.animateComputerMoving(self.board, column)
         GUI.makeMove(self.board, GUI.BLACK, column)
 
@@ -133,6 +177,35 @@ class Game:
         import time
         print("\nPlayer (AI) Move...")
         old_mask = self.current_state.game_position
+        # If using a Q-learning agent for the player's side (AI-vs-AI), let it pick
+        if self.ai_algo == 'qlearning' and self.q_agent is not None:
+            # transformed state: treat player's pieces as 'ai' for the agent
+            transformed_first = 0 if self.first == -1 else -1
+            transformed_state = State(self.current_state.player_position, self.current_state.game_position,
+                                      self.current_state.depth)
+            column = self.q_agent.choose_action(transformed_state, transformed_first, epsilon=0.0)
+            if column is None:
+                # fallback to first legal
+                fallback_child = None
+                for c in self.current_state.generate_children(self.first):
+                    fallback_child = c
+                    break
+                if fallback_child is None:
+                    return
+                self.current_state = fallback_child
+            else:
+                new_ai_pos, new_mask = make_move_opponent(self.current_state.ai_position, self.current_state.game_position, column)
+                self.current_state = State(new_ai_pos, new_mask, self.current_state.depth + 1)
+
+            # Determine which column changed by mask diff
+            col_bits = old_mask ^ self.current_state.game_position
+            column = (col_bits.bit_length() - 1) // 7
+            print(f"[Player-QLearning] Chosen column: {column}")
+
+            GUI.animateDroppingToken(self.board, column, GUI.RED)
+            GUI.makeMove(self.board, GUI.RED, column)
+            return
+
         # choose search implementation depending on selected AI algorithm
         if self.ai_algo == 'plain':
             search_fn = core_minimax_search if core_minimax_search is not None else minimax_search
@@ -445,9 +518,12 @@ if __name__ == "__main__":
     # Ask user which AI algorithm to use in the GUI: alpha-beta or plain minimax
     ai_choice = None
     try:
-        choice = input("Choose AI algorithm: (1) AlphaBeta (default)  (2) Plain Minimax : ")
-        if choice.strip() == '2':
+        choice = input("Choose AI algorithm: (1) AlphaBeta (default)  (2) Plain Minimax  (3) Q-Learning : ")
+        c = choice.strip().lower()
+        if c == '2':
             ai_choice = 'plain'
+        elif c == '3' or c == 'q' or c == 'q-learning' or c == 'qlearning':
+            ai_choice = 'qlearning'
         else:
             ai_choice = 'alphabeta'
     except Exception:
