@@ -10,8 +10,6 @@ Table of contents
 - [Headless modes (automation)](#headless-modes-automation)
 - [AI metrics (explain)](#ai-metrics-explain)
 - [Tests](#tests)
-- [Troubleshooting](#troubleshooting)
-- [Next steps / ideas](#next-steps--ideas)
 
 ## Project structure
 
