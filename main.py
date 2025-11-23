@@ -165,9 +165,16 @@ class Game:
         column = temp_position ^ self.current_state.ai_position
         column = (column.bit_length() - 1) // 7
         
-        # Print AI metrics
+        # Print AI metrics (extended): nodes/sec and an estimated effective branching factor
         algo_name = "AlphaBeta" if self.ai_algo == 'alphabeta' else "Plain Minimax"
-        print(f"[{algo_name}] Depth: {depth} | Nodes Explored: {metrics['nodes_explored']} | Nodes Pruned: {metrics['nodes_pruned']} | Time: {elapsed_time:.4f}s")
+        nodes = metrics.get('nodes_explored', 0)
+        pruned = metrics.get('nodes_pruned', 0)
+        nodes_per_sec = nodes / elapsed_time if elapsed_time > 0 else 0
+        try:
+            eff_branch = (nodes ** (1.0 / depth)) if nodes > 0 and depth > 0 else 0
+        except Exception:
+            eff_branch = 0
+        print(f"[{algo_name}] Depth: {depth} | Nodes: {nodes} | Pruned: {pruned} | Time: {elapsed_time:.4f}s | Nodes/s: {nodes_per_sec:.0f} | EffBranch: {eff_branch:.2f}")
 
         GUI.animateComputerMoving(self.board, column)
         GUI.makeMove(self.board, GUI.BLACK, column)
