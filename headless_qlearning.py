@@ -7,6 +7,7 @@ via self-play where the opponent is either random or a search-based player
 """
 import random
 import time
+import argparse
 from q_learning import QLearningAgent
 from core import State, make_move, make_move_opponent, minimax_search, alphabeta_search
 
@@ -101,6 +102,22 @@ def train(agent, episodes=2000, opponent='random', depth_op=3, who_first_policy=
                         action = (col_bit.bit_length() - 1) // 7
                     new_ai_pos, new_mask = make_move_opponent(state.ai_position, state.game_position, action)
                     state = State(new_ai_pos, new_mask, state.depth + 1)
+                elif opponent == 'alphabeta':
+                    # Use alphabeta_search where the opponent is treated as 'ai' in transformed state
+                    transformed_state = State(state.player_position, state.game_position, state.depth)
+                    transformed_first = 0 if who_first == -1 else -1
+                    res = alphabeta_search(transformed_state, transformed_first, d=depth_op)
+                    if res is None:
+                        # fallback random
+                        legal = [c for c in range(7) if not (state.game_position & (1 << (7 * c + 5)))]
+                        if not legal:
+                            break
+                        action = random.choice(legal)
+                    else:
+                        col_bit = transformed_state.ai_position ^ res.ai_position
+                        action = (col_bit.bit_length() - 1) // 7
+                    new_ai_pos, new_mask = make_move_opponent(state.ai_position, state.game_position, action)
+                    state = State(new_ai_pos, new_mask, state.depth + 1)
                 else:
                     raise ValueError('Unknown opponent type')
 
@@ -117,5 +134,15 @@ def train(agent, episodes=2000, opponent='random', depth_op=3, who_first_policy=
 
 
 if __name__ == '__main__':
-    agent = QLearningAgent(alpha=0.1, gamma=0.99, epsilon=0.2)
-    train(agent, episodes=2000, opponent='random', depth_op=3, save_path='q_table.pkl')
+    parser = argparse.ArgumentParser(description='Train Q-learning agent')
+    parser.add_argument('--episodes', '-n', type=int, default=2000, help='Number of training episodes')
+    parser.add_argument('--opponent', '-o', choices=['random', 'minimax', 'alphabeta'], default='random', help='Opponent type')
+    parser.add_argument('--depth-op', type=int, default=3, help='Depth for opponent search')
+    parser.add_argument('--save', type=str, default='q_table.pkl', help='Path to save q-table')
+    parser.add_argument('--alpha', type=float, default=0.1, help='Learning rate')
+    parser.add_argument('--gamma', type=float, default=0.99, help='Discount factor')
+    parser.add_argument('--epsilon', type=float, default=0.2, help='Starting epsilon')
+    args = parser.parse_args()
+
+    agent = QLearningAgent(alpha=args.alpha, gamma=args.gamma, epsilon=args.epsilon)
+    train(agent, episodes=args.episodes, opponent=args.opponent, depth_op=args.depth_op, save_path=args.save)

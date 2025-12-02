@@ -539,6 +539,17 @@ if __name__ == "__main__":
         player_is_ai = False
 
     GUI.run()
+    
+    # Give user time to switch to the window and bring it to focus
+    import time
+    import pygame
+    print("\nUI window initializing... (5 second delay to let you switch tabs)")
+    for i in range(5, 0, -1):
+        print(f"Starting in {i}s...", end='\r', flush=True)
+        pygame.event.pump()  # Keep event queue responsive during delay
+        time.sleep(1)
+    print("Starting now!          ")
+    
     while True:
         # Set up a blank board data structure.
         game_board = GUI.getNewBoard()
