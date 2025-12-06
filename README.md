@@ -270,3 +270,9 @@ python headless_qlearning.py --episodes 10000 --opponent minimax --depth-op 3 --
 5. **Visualize learning** — Plot Q-values, winrates, and node counts for understanding.
 
 ---
+
+## Video Explanation
+
+For a visual walkthrough of the project architecture, algorithms, and implementation details, watch this explanation:
+
+🎥 **[Connect-Dots-in-Grid Project Walkthrough](https://youtu.be/ydysH0aNf3s)**
