@@ -74,24 +74,33 @@ def choose_move_and_metrics(state, search_fn, who_went_first, d):
         return col, child, metrics
 
 
-def play_and_collect(search_a, search_b, episodes=100, depth_a=5, depth_b=5):
+def play_and_collect(search_a, search_b, episodes=100, depth_a=5, depth_b=5, record_episodes=False):
     stats = defaultdict(int)
     times = []
     moves_total = 0
     nodes_explored = 0
     nodes_pruned = 0
+    episodes_list = []
 
     for ep in range(episodes):
         who_first = -1 if ep % 2 == 0 else 0
         state = State(0, 0, depth=0)
         moves = 0
         total_time = 0.0
-
         while True:
             if state.terminal_node_test():
                 stats['wins_ai'] += 1 if state.status == -1 else 0
                 stats['wins_opponent'] += 1 if state.status == 1 else 0
                 stats['draws'] += 1 if state.status == 0 else 0
+                # record episode
+                if record_episodes:
+                    episodes_list.append({
+                        'winner': ('ai' if state.status == -1 else ('opponent' if state.status == 1 else 'draw')),
+                        'moves': moves,
+                        'time': total_time,
+                        'nodes_explored': 0,
+                        'nodes_pruned': 0,
+                    })
                 break
 
             if is_ai_turn(state, who_first):
@@ -102,6 +111,14 @@ def play_and_collect(search_a, search_b, episodes=100, depth_a=5, depth_b=5):
                 if child is None:
                     # no legal move -> draw
                     stats['draws'] += 1
+                    if record_episodes:
+                        episodes_list.append({
+                            'winner': 'draw',
+                            'moves': moves,
+                            'time': total_time,
+                            'nodes_explored': 0,
+                            'nodes_pruned': 0,
+                        })
                     break
                 state = child
                 nodes_explored += metrics.get('nodes_explored', 0)
@@ -113,6 +130,14 @@ def play_and_collect(search_a, search_b, episodes=100, depth_a=5, depth_b=5):
                 total_time += elapsed
                 if child is None:
                     stats['draws'] += 1
+                    if record_episodes:
+                        episodes_list.append({
+                            'winner': 'draw',
+                            'moves': moves,
+                            'time': total_time,
+                            'nodes_explored': 0,
+                            'nodes_pruned': 0,
+                        })
                     break
                 state = child
                 nodes_explored += metrics.get('nodes_explored', 0)
@@ -123,6 +148,12 @@ def play_and_collect(search_a, search_b, episodes=100, depth_a=5, depth_b=5):
                 stats['draws'] += 1
                 break
 
+        # record per-episode metrics (fill nodes/pruned for this episode)
+        if record_episodes:
+            # episodes_list last element corresponds to terminal state or earlier breaks; update its node counts if present
+            if episodes_list and isinstance(episodes_list[-1], dict):
+                episodes_list[-1]['nodes_explored'] = nodes_explored - sum(e.get('nodes_explored', 0) for e in episodes_list[:-1]) if episodes_list else nodes_explored
+                episodes_list[-1]['nodes_pruned'] = nodes_pruned - sum(e.get('nodes_pruned', 0) for e in episodes_list[:-1]) if episodes_list else nodes_pruned
         times.append(total_time)
         moves_total += moves
 
@@ -137,6 +168,8 @@ def play_and_collect(search_a, search_b, episodes=100, depth_a=5, depth_b=5):
         'avg_nodes_explored_per_game': nodes_explored / episodes_done if episodes_done else 0,
         'avg_nodes_pruned_per_game': nodes_pruned / episodes_done if episodes_done else 0,
     }
+    if record_episodes:
+        return report, episodes_list
     return report
 
 
@@ -145,6 +178,8 @@ def main():
     parser.add_argument('--episodes', '-n', type=int, default=100, help='Number of games per matchup')
     parser.add_argument('--depth', type=int, default=5, help='Search depth for minimax/alphabeta')
     parser.add_argument('--qtable', type=str, default='q_table.pkl', help='Path to q-table pickle')
+    parser.add_argument('--out', '-o', type=str, default=None, help='Optional JSON output file to write results')
+    parser.add_argument('--out-detailed', '-D', type=str, default=None, help='Optional detailed JSON output file with per-episode records')
     args = parser.parse_args()
 
     # Prepare q-agent
@@ -158,16 +193,46 @@ def main():
     q_search = q_search_factory(q_agent)
 
     print('Evaluating: AlphaBeta vs Plain Minimax')
-    r1 = play_and_collect(alphabeta_search, minimax_search, episodes=args.episodes, depth_a=args.depth, depth_b=args.depth)
+    r1 = play_and_collect(alphabeta_search, minimax_search, episodes=args.episodes, depth_a=args.depth, depth_b=args.depth, record_episodes=bool(args.out_detailed))
     print(r1)
 
     print('\nEvaluating: AlphaBeta vs Q-Learning')
-    r2 = play_and_collect(alphabeta_search, q_search, episodes=args.episodes, depth_a=args.depth, depth_b=0)
+    r2 = play_and_collect(alphabeta_search, q_search, episodes=args.episodes, depth_a=args.depth, depth_b=0, record_episodes=bool(args.out_detailed))
     print(r2)
 
     print('\nEvaluating: Plain Minimax vs Q-Learning')
-    r3 = play_and_collect(minimax_search, q_search, episodes=args.episodes, depth_a=args.depth, depth_b=0)
+    r3 = play_and_collect(minimax_search, q_search, episodes=args.episodes, depth_a=args.depth, depth_b=0, record_episodes=bool(args.out_detailed))
     print(r3)
+
+    # Normalize results to include optional per-episode lists
+    def normalize(res):
+        if isinstance(res, tuple):
+            report, episodes = res
+            return {'report': report, 'episodes': episodes}
+        return {'report': res, 'episodes': None}
+
+    results = {
+        'AlphaBeta vs Plain Minimax': normalize(r1),
+        'AlphaBeta vs Q-Learning': normalize(r2),
+        'Plain Minimax vs Q-Learning': normalize(r3),
+    }
+
+    if args.out:
+        try:
+            import json
+            with open(args.out, 'w', encoding='utf-8') as jf:
+                json.dump(results, jf, indent=2)
+            print(f'Wrote results JSON to {args.out}')
+        except Exception as e:
+            print(f'Failed to write JSON to {args.out}: {e}')
+    if args.out_detailed:
+        try:
+            import json
+            with open(args.out_detailed, 'w', encoding='utf-8') as jf:
+                json.dump(results, jf, indent=2)
+            print(f'Wrote detailed results JSON to {args.out_detailed}')
+        except Exception as e:
+            print(f'Failed to write detailed JSON to {args.out_detailed}: {e}')
 
 
 if __name__ == '__main__':

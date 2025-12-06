@@ -1,0 +1,4244 @@
+{
+  "AlphaBeta vs Plain Minimax": {
+    "report": {
+      "episodes": 200,
+      "wins_ai": 100,
+      "wins_opponent": 100,
+      "draws": 0,
+      "avg_moves_per_game": 7.0,
+      "avg_time_per_game": 0.7659959161281585,
+      "avg_nodes_explored_per_game": 259646.0,
+      "avg_nodes_pruned_per_game": 1606.5
+    },
+    "episodes": [
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7648990154266357,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7970309257507324,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.714747428894043,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8298945426940918,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7450034618377686,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.758289098739624,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7022457122802734,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7522690296173096,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8556885719299316,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8747115135192871,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6963460445404053,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.743211030960083,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8315889835357666,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7773928642272949,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7040469646453857,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7406070232391357,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6916062831878662,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7391173839569092,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7974319458007812,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7635207176208496,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7601027488708496,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8150207996368408,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7032647132873535,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7403297424316406,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7180159091949463,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.751854658126831,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.9229812622070312,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7457199096679688,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6979403495788574,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7569866180419922,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7026548385620117,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7688651084899902,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7119331359863281,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7410335540771484,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6923906803131104,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7512941360473633,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8614184856414795,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8062698841094971,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6984438896179199,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7375273704528809,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7109308242797852,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.769526481628418,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8942489624023438,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7423717975616455,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7000446319580078,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8435769081115723,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.705366849899292,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7646160125732422,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7301285266876221,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7421197891235352,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.705211877822876,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.765850305557251,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7248330116271973,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.904836893081665,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7963473796844482,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7401232719421387,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7035701274871826,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7606232166290283,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7875080108642578,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.793205976486206,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7171039581298828,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7514777183532715,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7098844051361084,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7499170303344727,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 1.0013573169708252,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7424423694610596,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6949243545532227,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7592930793762207,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7052886486053467,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8895416259765625,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7414875030517578,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7522735595703125,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6987173557281494,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8300180435180664,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8267941474914551,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7471017837524414,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7122108936309814,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.736846923828125,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7412042617797852,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8663663864135742,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8296573162078857,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.741382360458374,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8062942028045654,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7686591148376465,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8767154216766357,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7634425163269043,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7250022888183594,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7483468055725098,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7092568874359131,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7476861476898193,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7105374336242676,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7707760334014893,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8134958744049072,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.747464656829834,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.704498291015625,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7397985458374023,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7113029956817627,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7480270862579346,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8389651775360107,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7546958923339844,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7954058647155762,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7398009300231934,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7406458854675293,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7710480690002441,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7818279266357422,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.9121696949005127,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7045238018035889,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7455086708068848,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7208561897277832,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7590122222900391,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8379311561584473,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7516107559204102,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7089378833770752,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7576920986175537,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6983642578125,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7616493701934814,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7003085613250732,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7449908256530762,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7100870609283447,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.853766679763794,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7254269123077393,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7679753303527832,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.710038423538208,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7528789043426514,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7460808753967285,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7884650230407715,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.9013664722442627,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7652583122253418,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7975518703460693,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7502889633178711,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7604591846466064,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.9074218273162842,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7077343463897705,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7477753162384033,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7135167121887207,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7640624046325684,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.781135082244873,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8170416355133057,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8077185153961182,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7542557716369629,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7066502571105957,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7691123485565186,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7136745452880859,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7480409145355225,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7040848731994629,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7637162208557129,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7113111019134521,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 1.0330913066864014,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.759946346282959,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7550454139709473,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7192583084106445,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.746814489364624,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8695948123931885,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.747443675994873,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7058727741241455,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7553715705871582,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8535351753234863,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.9369485378265381,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6982676982879639,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7407352924346924,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6945497989654541,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7603204250335693,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7612855434417725,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8723595142364502,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7188999652862549,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7364006042480469,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8137109279632568,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7568607330322266,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7138087749481201,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7607696056365967,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7187860012054443,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7425024509429932,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7047693729400635,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7494938373565674,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8174214363098145,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.9179158210754395,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7229366302490234,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7622277736663818,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7105646133422852,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7482852935791016,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.774691104888916,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8258762359619141,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7017033100128174,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7504515647888184,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8184328079223633,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7578127384185791,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.9705104827880859,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7646288871765137,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7377309799194336,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7536203861236572,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7036106586456299,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.9223082065582275,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6935012340545654,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.8469486236572266,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7179315090179443,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7536253929138184,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8969435691833496,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7827737331390381,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7075405120849609,
+        "nodes_explored": 225052,
+        "nodes_pruned": 185
+      },
+      {
+        "winner": "opponent",
+        "moves": 7,
+        "time": 0.7545731067657471,
+        "nodes_explored": 294240,
+        "nodes_pruned": 3028
+      }
+    ]
+  },
+  "AlphaBeta vs Q-Learning": {
+    "report": {
+      "episodes": 200,
+      "wins_ai": 199,
+      "wins_opponent": 1,
+      "draws": 0,
+      "avg_moves_per_game": 9.355,
+      "avg_time_per_game": 0.17358859419822692,
+      "avg_nodes_explored_per_game": 23638.92,
+      "avg_nodes_pruned_per_game": 3826.875
+    },
+    "episodes": [
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17101311683654785,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09070253372192383,
+        "nodes_explored": 12828,
+        "nodes_pruned": 5648
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 0.3917849063873291,
+        "nodes_explored": 57204,
+        "nodes_pruned": 254
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 0.1491086483001709,
+        "nodes_explored": 27797,
+        "nodes_pruned": 12200
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16298508644104004,
+        "nodes_explored": 21072,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10526108741760254,
+        "nodes_explored": 15961,
+        "nodes_pruned": 6936
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1889955997467041,
+        "nodes_explored": 24090,
+        "nodes_pruned": 190
+      },
+      {
+        "winner": "ai",
+        "moves": 20,
+        "time": 0.190077543258667,
+        "nodes_explored": 33499,
+        "nodes_pruned": 14618
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.27695751190185547,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 12,
+        "time": 0.1286177635192871,
+        "nodes_explored": 20440,
+        "nodes_pruned": 8967
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17473649978637695,
+        "nodes_explored": 26894,
+        "nodes_pruned": 198
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.0941767692565918,
+        "nodes_explored": 13430,
+        "nodes_pruned": 5932
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1570422649383545,
+        "nodes_explored": 20630,
+        "nodes_pruned": 208
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.09643220901489258,
+        "nodes_explored": 14397,
+        "nodes_pruned": 6324
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16199469566345215,
+        "nodes_explored": 23148,
+        "nodes_pruned": 207
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 0.27996397018432617,
+        "nodes_explored": 34814,
+        "nodes_pruned": 15204
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16475939750671387,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08493256568908691,
+        "nodes_explored": 12682,
+        "nodes_pruned": 5588
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17047119140625,
+        "nodes_explored": 24090,
+        "nodes_pruned": 190
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09358501434326172,
+        "nodes_explored": 14381,
+        "nodes_pruned": 6310
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16190624237060547,
+        "nodes_explored": 23032,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 20,
+        "time": 0.12464118003845215,
+        "nodes_explored": 20915,
+        "nodes_pruned": 9189
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.25862932205200195,
+        "nodes_explored": 26894,
+        "nodes_pruned": 198
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.1014559268951416,
+        "nodes_explored": 14789,
+        "nodes_pruned": 6500
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17944955825805664,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.0871429443359375,
+        "nodes_explored": 10779,
+        "nodes_pruned": 4743
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17465925216674805,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.07594633102416992,
+        "nodes_explored": 8758,
+        "nodes_pruned": 3870
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.18175339698791504,
+        "nodes_explored": 27027,
+        "nodes_pruned": 202
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09353232383728027,
+        "nodes_explored": 13669,
+        "nodes_pruned": 6007
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2514207363128662,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10111093521118164,
+        "nodes_explored": 14105,
+        "nodes_pruned": 6190
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.19889354705810547,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09737420082092285,
+        "nodes_explored": 8758,
+        "nodes_pruned": 3870
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.21322202682495117,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 0.19161653518676758,
+        "nodes_explored": 27469,
+        "nodes_pruned": 11970
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.21020865440368652,
+        "nodes_explored": 26251,
+        "nodes_pruned": 197
+      },
+      {
+        "winner": "ai",
+        "moves": 14,
+        "time": 0.29416990280151367,
+        "nodes_explored": 15240,
+        "nodes_pruned": 6691
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.19453835487365723,
+        "nodes_explored": 26894,
+        "nodes_pruned": 198
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08527112007141113,
+        "nodes_explored": 11987,
+        "nodes_pruned": 5259
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16819047927856445,
+        "nodes_explored": 24090,
+        "nodes_pruned": 190
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08694148063659668,
+        "nodes_explored": 12241,
+        "nodes_pruned": 5377
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15285992622375488,
+        "nodes_explored": 20630,
+        "nodes_pruned": 208
+      },
+      {
+        "winner": "ai",
+        "moves": 30,
+        "time": 0.13659286499023438,
+        "nodes_explored": 24641,
+        "nodes_pruned": 10696
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.26233410835266113,
+        "nodes_explored": 21203,
+        "nodes_pruned": 218
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09625744819641113,
+        "nodes_explored": 13884,
+        "nodes_pruned": 6089
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1661546230316162,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08101296424865723,
+        "nodes_explored": 11182,
+        "nodes_pruned": 4937
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17526745796203613,
+        "nodes_explored": 27094,
+        "nodes_pruned": 210
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.1079401969909668,
+        "nodes_explored": 16700,
+        "nodes_pruned": 7254
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16816425323486328,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09917449951171875,
+        "nodes_explored": 14947,
+        "nodes_pruned": 6563
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2616574764251709,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08628678321838379,
+        "nodes_explored": 11544,
+        "nodes_pruned": 5089
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1539320945739746,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10546135902404785,
+        "nodes_explored": 15848,
+        "nodes_pruned": 6894
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16782069206237793,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.12630057334899902,
+        "nodes_explored": 20765,
+        "nodes_pruned": 9129
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.18307948112487793,
+        "nodes_explored": 27027,
+        "nodes_pruned": 202
+      },
+      {
+        "winner": "ai",
+        "moves": 24,
+        "time": 0.30594754219055176,
+        "nodes_explored": 23417,
+        "nodes_pruned": 10342
+      },
+      {
+        "winner": "opponent",
+        "moves": 18,
+        "time": 0.4119865894317627,
+        "nodes_explored": 64890,
+        "nodes_pruned": 431
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10202860832214355,
+        "nodes_explored": 14671,
+        "nodes_pruned": 6425
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 0.2904195785522461,
+        "nodes_explored": 57266,
+        "nodes_pruned": 265
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 0.13796591758728027,
+        "nodes_explored": 24927,
+        "nodes_pruned": 11012
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.25497937202453613,
+        "nodes_explored": 22590,
+        "nodes_pruned": 199
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 0.15030217170715332,
+        "nodes_explored": 27236,
+        "nodes_pruned": 11920
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15268635749816895,
+        "nodes_explored": 20630,
+        "nodes_pruned": 208
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.13094663619995117,
+        "nodes_explored": 21178,
+        "nodes_pruned": 9310
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16328978538513184,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09315752983093262,
+        "nodes_explored": 13838,
+        "nodes_pruned": 6067
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1741631031036377,
+        "nodes_explored": 22590,
+        "nodes_pruned": 199
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.20848965644836426,
+        "nodes_explored": 15961,
+        "nodes_pruned": 6936
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1794435977935791,
+        "nodes_explored": 26894,
+        "nodes_pruned": 198
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10050344467163086,
+        "nodes_explored": 13562,
+        "nodes_pruned": 5989
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16750884056091309,
+        "nodes_explored": 23032,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09318900108337402,
+        "nodes_explored": 13884,
+        "nodes_pruned": 6089
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16405248641967773,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09695982933044434,
+        "nodes_explored": 14789,
+        "nodes_pruned": 6500
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16260719299316406,
+        "nodes_explored": 22619,
+        "nodes_pruned": 212
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.1730647087097168,
+        "nodes_explored": 13764,
+        "nodes_pruned": 6040
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 0.43027377128601074,
+        "nodes_explored": 72603,
+        "nodes_pruned": 338
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10456013679504395,
+        "nodes_explored": 9882,
+        "nodes_pruned": 4352
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2014920711517334,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.12827634811401367,
+        "nodes_explored": 14789,
+        "nodes_pruned": 6500
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.18178939819335938,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.23398089408874512,
+        "nodes_explored": 23653,
+        "nodes_pruned": 10427
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15819001197814941,
+        "nodes_explored": 21203,
+        "nodes_pruned": 218
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08307933807373047,
+        "nodes_explored": 11376,
+        "nodes_pruned": 4988
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17060208320617676,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.0934605598449707,
+        "nodes_explored": 13629,
+        "nodes_pruned": 6020
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17064476013183594,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 0.14881610870361328,
+        "nodes_explored": 27129,
+        "nodes_pruned": 11749
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.25020837783813477,
+        "nodes_explored": 22619,
+        "nodes_pruned": 212
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09389519691467285,
+        "nodes_explored": 12655,
+        "nodes_pruned": 5591
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15952730178833008,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08851218223571777,
+        "nodes_explored": 12594,
+        "nodes_pruned": 5552
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15409445762634277,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09820318222045898,
+        "nodes_explored": 13485,
+        "nodes_pruned": 5935
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 0.3098866939544678,
+        "nodes_explored": 57204,
+        "nodes_pruned": 254
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.20957541465759277,
+        "nodes_explored": 17086,
+        "nodes_pruned": 7426
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1645803451538086,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 0.19781732559204102,
+        "nodes_explored": 38259,
+        "nodes_pruned": 16529
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1701195240020752,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.13102054595947266,
+        "nodes_explored": 14755,
+        "nodes_pruned": 6404
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2359013557434082,
+        "nodes_explored": 27027,
+        "nodes_pruned": 202
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.1159512996673584,
+        "nodes_explored": 12594,
+        "nodes_pruned": 5552
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.3812117576599121,
+        "nodes_explored": 26894,
+        "nodes_pruned": 198
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.1244962215423584,
+        "nodes_explored": 14482,
+        "nodes_pruned": 6364
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1937544345855713,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08084678649902344,
+        "nodes_explored": 9889,
+        "nodes_pruned": 4370
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1662750244140625,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08666348457336426,
+        "nodes_explored": 11569,
+        "nodes_pruned": 5107
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16164374351501465,
+        "nodes_explored": 22619,
+        "nodes_pruned": 212
+      },
+      {
+        "winner": "ai",
+        "moves": 12,
+        "time": 0.2467939853668213,
+        "nodes_explored": 27445,
+        "nodes_pruned": 12017
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15053892135620117,
+        "nodes_explored": 20630,
+        "nodes_pruned": 208
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.07704496383666992,
+        "nodes_explored": 9681,
+        "nodes_pruned": 4269
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16910910606384277,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09651374816894531,
+        "nodes_explored": 14947,
+        "nodes_pruned": 6563
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15960907936096191,
+        "nodes_explored": 21072,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09935474395751953,
+        "nodes_explored": 14947,
+        "nodes_pruned": 6563
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 0.3795735836029053,
+        "nodes_explored": 56826,
+        "nodes_pruned": 263
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 0.24749016761779785,
+        "nodes_explored": 38726,
+        "nodes_pruned": 16895
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16782736778259277,
+        "nodes_explored": 21203,
+        "nodes_pruned": 218
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 0.1546492576599121,
+        "nodes_explored": 27198,
+        "nodes_pruned": 11935
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.156494140625,
+        "nodes_explored": 21072,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 20,
+        "time": 0.16071557998657227,
+        "nodes_explored": 29878,
+        "nodes_pruned": 13057
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2907538414001465,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 0.138458251953125,
+        "nodes_explored": 18862,
+        "nodes_pruned": 8258
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.22328662872314453,
+        "nodes_explored": 23148,
+        "nodes_pruned": 207
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10026240348815918,
+        "nodes_explored": 9681,
+        "nodes_pruned": 4269
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1847095489501953,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09964585304260254,
+        "nodes_explored": 13924,
+        "nodes_pruned": 6104
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15969204902648926,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10321450233459473,
+        "nodes_explored": 14747,
+        "nodes_pruned": 6484
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2413465976715088,
+        "nodes_explored": 24090,
+        "nodes_pruned": 190
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.0889747142791748,
+        "nodes_explored": 12421,
+        "nodes_pruned": 5448
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16716504096984863,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.0799570083618164,
+        "nodes_explored": 9867,
+        "nodes_pruned": 4347
+      },
+      {
+        "winner": "ai",
+        "moves": 19,
+        "time": 0.4108724594116211,
+        "nodes_explored": 88825,
+        "nodes_pruned": 568
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08810830116271973,
+        "nodes_explored": 11556,
+        "nodes_pruned": 5096
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.27938413619995117,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09865307807922363,
+        "nodes_explored": 13712,
+        "nodes_pruned": 6013
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1645193099975586,
+        "nodes_explored": 21203,
+        "nodes_pruned": 218
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.0935983657836914,
+        "nodes_explored": 13802,
+        "nodes_pruned": 6051
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.18040847778320312,
+        "nodes_explored": 26894,
+        "nodes_pruned": 198
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.11221623420715332,
+        "nodes_explored": 17090,
+        "nodes_pruned": 7427
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1650550365447998,
+        "nodes_explored": 20630,
+        "nodes_pruned": 208
+      },
+      {
+        "winner": "ai",
+        "moves": 20,
+        "time": 0.2865574359893799,
+        "nodes_explored": 36182,
+        "nodes_pruned": 15694
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17298412322998047,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09149169921875,
+        "nodes_explored": 12825,
+        "nodes_pruned": 5647
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16182756423950195,
+        "nodes_explored": 22590,
+        "nodes_pruned": 199
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09655547142028809,
+        "nodes_explored": 14172,
+        "nodes_pruned": 6213
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.19312524795532227,
+        "nodes_explored": 27094,
+        "nodes_pruned": 210
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.17516517639160156,
+        "nodes_explored": 23653,
+        "nodes_pruned": 10427
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.3210892677307129,
+        "nodes_explored": 21072,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.12193441390991211,
+        "nodes_explored": 15893,
+        "nodes_pruned": 6913
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.2554917335510254,
+        "nodes_explored": 26251,
+        "nodes_pruned": 197
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10463786125183105,
+        "nodes_explored": 9584,
+        "nodes_pruned": 4233
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.18923020362854004,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 0.19894146919250488,
+        "nodes_explored": 40031,
+        "nodes_pruned": 17576
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.15692806243896484,
+        "nodes_explored": 21072,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.21224665641784668,
+        "nodes_explored": 21970,
+        "nodes_pruned": 9667
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16097450256347656,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08756303787231445,
+        "nodes_explored": 11581,
+        "nodes_pruned": 5111
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 0.3774106502532959,
+        "nodes_explored": 78482,
+        "nodes_pruned": 319
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 0.18325304985046387,
+        "nodes_explored": 34240,
+        "nodes_pruned": 14788
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.27327609062194824,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09249019622802734,
+        "nodes_explored": 13191,
+        "nodes_pruned": 5788
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1709895133972168,
+        "nodes_explored": 23148,
+        "nodes_pruned": 207
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09208083152770996,
+        "nodes_explored": 12650,
+        "nodes_pruned": 5589
+      },
+      {
+        "winner": "ai",
+        "moves": 15,
+        "time": 0.3487675189971924,
+        "nodes_explored": 74996,
+        "nodes_pruned": 329
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09020447731018066,
+        "nodes_explored": 12769,
+        "nodes_pruned": 5621
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17354798316955566,
+        "nodes_explored": 24719,
+        "nodes_pruned": 191
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.18080902099609375,
+        "nodes_explored": 12613,
+        "nodes_pruned": 5572
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16374993324279785,
+        "nodes_explored": 21079,
+        "nodes_pruned": 209
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10062599182128906,
+        "nodes_explored": 13865,
+        "nodes_pruned": 6086
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 0.2989645004272461,
+        "nodes_explored": 58441,
+        "nodes_pruned": 358
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.10104060173034668,
+        "nodes_explored": 14368,
+        "nodes_pruned": 6316
+      },
+      {
+        "winner": "ai",
+        "moves": 15,
+        "time": 0.5370063781738281,
+        "nodes_explored": 70513,
+        "nodes_pruned": 413
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10894632339477539,
+        "nodes_explored": 14919,
+        "nodes_pruned": 6553
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16602730751037598,
+        "nodes_explored": 22590,
+        "nodes_pruned": 199
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10256409645080566,
+        "nodes_explored": 14524,
+        "nodes_pruned": 6367
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.17380428314208984,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09372258186340332,
+        "nodes_explored": 11263,
+        "nodes_pruned": 4969
+      },
+      {
+        "winner": "ai",
+        "moves": 21,
+        "time": 0.4689810276031494,
+        "nodes_explored": 83603,
+        "nodes_pruned": 615
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09095168113708496,
+        "nodes_explored": 12832,
+        "nodes_pruned": 5614
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16213440895080566,
+        "nodes_explored": 22590,
+        "nodes_pruned": 199
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09033036231994629,
+        "nodes_explored": 12774,
+        "nodes_pruned": 5656
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.1760265827178955,
+        "nodes_explored": 27094,
+        "nodes_pruned": 210
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.10816836357116699,
+        "nodes_explored": 15956,
+        "nodes_pruned": 6936
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.16922521591186523,
+        "nodes_explored": 23039,
+        "nodes_pruned": 200
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.1111612319946289,
+        "nodes_explored": 16799,
+        "nodes_pruned": 7313
+      },
+      {
+        "winner": "ai",
+        "moves": 23,
+        "time": 0.4776430130004883,
+        "nodes_explored": 83364,
+        "nodes_pruned": 840
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09025216102600098,
+        "nodes_explored": 13430,
+        "nodes_pruned": 5932
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 0.30619263648986816,
+        "nodes_explored": 60506,
+        "nodes_pruned": 305
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.09101533889770508,
+        "nodes_explored": 13551,
+        "nodes_pruned": 5982
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.3859281539916992,
+        "nodes_explored": 24796,
+        "nodes_pruned": 194
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.1184539794921875,
+        "nodes_explored": 13562,
+        "nodes_pruned": 5989
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 0.4406745433807373,
+        "nodes_explored": 64992,
+        "nodes_pruned": 229
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.08954668045043945,
+        "nodes_explored": 12729,
+        "nodes_pruned": 5606
+      }
+    ]
+  },
+  "Plain Minimax vs Q-Learning": {
+    "report": {
+      "episodes": 200,
+      "wins_ai": 199,
+      "wins_opponent": 1,
+      "draws": 0,
+      "avg_moves_per_game": 9.135,
+      "avg_time_per_game": 0.9217358815670014,
+      "avg_nodes_explored_per_game": 408547.73,
+      "avg_nodes_pruned_per_game": 0.0
+    },
+    "episodes": [
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8187921047210693,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.725496768951416,
+        "nodes_explored": 303110,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7910943031311035,
+        "nodes_explored": 342529,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.9013047218322754,
+        "nodes_explored": 359329,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8034622669219971,
+        "nodes_explored": 310074,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8089332580566406,
+        "nodes_explored": 351258,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7333657741546631,
+        "nodes_explored": 310074,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8336334228515625,
+        "nodes_explored": 360031,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7307877540588379,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.9730265140533447,
+        "nodes_explored": 342945,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7220666408538818,
+        "nodes_explored": 310432,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 1.4354050159454346,
+        "nodes_explored": 719387,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8143794536590576,
+        "nodes_explored": 351047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 1.262498378753662,
+        "nodes_explored": 486508,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7487926483154297,
+        "nodes_explored": 301780,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.815941572189331,
+        "nodes_explored": 345194,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8057951927185059,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8606677055358887,
+        "nodes_explored": 361291,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.74249267578125,
+        "nodes_explored": 311120,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.812462568283081,
+        "nodes_explored": 343786,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7112743854522705,
+        "nodes_explored": 310074,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8165380954742432,
+        "nodes_explored": 359597,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7245612144470215,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 1.1366777420043945,
+        "nodes_explored": 447861,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7198021411895752,
+        "nodes_explored": 310432,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.807748556137085,
+        "nodes_explored": 355920,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7273352146148682,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 12,
+        "time": 1.3273539543151855,
+        "nodes_explored": 593210,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8469204902648926,
+        "nodes_explored": 311120,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 1.3825459480285645,
+        "nodes_explored": 701080,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7371044158935547,
+        "nodes_explored": 310074,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 24,
+        "time": 1.649230718612671,
+        "nodes_explored": 826570,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7697024345397949,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8077421188354492,
+        "nodes_explored": 354082,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7256977558135986,
+        "nodes_explored": 302468,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.805936336517334,
+        "nodes_explored": 342945,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.9302084445953369,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7850892543792725,
+        "nodes_explored": 354157,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 1.4121923446655273,
+        "nodes_explored": 714453,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 1.540855884552002,
+        "nodes_explored": 686567,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7968044281005859,
+        "nodes_explored": 348674,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "opponent",
+        "moves": 17,
+        "time": 0.9987225532531738,
+        "nodes_explored": 468684,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7702577114105225,
+        "nodes_explored": 342529,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.846855640411377,
+        "nodes_explored": 358715,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8972728252410889,
+        "nodes_explored": 348674,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8057475090026855,
+        "nodes_explored": 360141,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7389686107635498,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8211970329284668,
+        "nodes_explored": 352213,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 1.6324234008789062,
+        "nodes_explored": 744369,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 14,
+        "time": 1.482905626296997,
+        "nodes_explored": 736011,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8770146369934082,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8301746845245361,
+        "nodes_explored": 359105,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7876927852630615,
+        "nodes_explored": 351230,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7938389778137207,
+        "nodes_explored": 355047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7321221828460693,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8150386810302734,
+        "nodes_explored": 351681,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 23,
+        "time": 2.20043683052063,
+        "nodes_explored": 1147489,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 1.454355239868164,
+        "nodes_explored": 732451,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7469296455383301,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 20,
+        "time": 1.5056591033935547,
+        "nodes_explored": 718252,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7749595642089844,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 1.765014410018921,
+        "nodes_explored": 915879,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8703889846801758,
+        "nodes_explored": 310432,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8299810886383057,
+        "nodes_explored": 354733,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.75927734375,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8240036964416504,
+        "nodes_explored": 359793,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7141258716583252,
+        "nodes_explored": 301422,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 12,
+        "time": 1.2690937519073486,
+        "nodes_explored": 554696,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7835855484008789,
+        "nodes_explored": 348674,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8501424789428711,
+        "nodes_explored": 352730,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7950642108917236,
+        "nodes_explored": 348674,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.9880936145782471,
+        "nodes_explored": 338460,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7912497520446777,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.820497989654541,
+        "nodes_explored": 355920,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 1.4261252880096436,
+        "nodes_explored": 732997,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.9295427799224854,
+        "nodes_explored": 353932,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 15,
+        "time": 1.7098019123077393,
+        "nodes_explored": 839032,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8009810447692871,
+        "nodes_explored": 353698,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7867505550384521,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8153119087219238,
+        "nodes_explored": 339058,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8869502544403076,
+        "nodes_explored": 335596,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7916049957275391,
+        "nodes_explored": 352730,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 1.212125539779663,
+        "nodes_explored": 606839,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 1.2396996021270752,
+        "nodes_explored": 585442,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7905905246734619,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8364827632904053,
+        "nodes_explored": 361149,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8121161460876465,
+        "nodes_explored": 351230,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8105478286743164,
+        "nodes_explored": 349144,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7829439640045166,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8207049369812012,
+        "nodes_explored": 355124,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7683138847351074,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.9629049301147461,
+        "nodes_explored": 449838,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8265624046325684,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.838709831237793,
+        "nodes_explored": 355047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 13,
+        "time": 1.4165606498718262,
+        "nodes_explored": 738325,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 22,
+        "time": 1.3624072074890137,
+        "nodes_explored": 648250,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8401460647583008,
+        "nodes_explored": 301422,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.9513182640075684,
+        "nodes_explored": 354082,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7692520618438721,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8020191192626953,
+        "nodes_explored": 359793,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7270305156707764,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 1.0107433795928955,
+        "nodes_explored": 479662,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 21,
+        "time": 1.9065580368041992,
+        "nodes_explored": 834789,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7837464809417725,
+        "nodes_explored": 330765,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.831230878829956,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8160350322723389,
+        "nodes_explored": 355047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 1.2604081630706787,
+        "nodes_explored": 612481,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8095793724060059,
+        "nodes_explored": 358387,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7737367153167725,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 14,
+        "time": 1.4583675861358643,
+        "nodes_explored": 737929,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 11,
+        "time": 1.307795763015747,
+        "nodes_explored": 612481,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8034887313842773,
+        "nodes_explored": 352464,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6988275051116943,
+        "nodes_explored": 302468,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8114733695983887,
+        "nodes_explored": 359183,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8392136096954346,
+        "nodes_explored": 348674,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 1.5864222049713135,
+        "nodes_explored": 827799,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7603535652160645,
+        "nodes_explored": 301780,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 24,
+        "time": 1.49068284034729,
+        "nodes_explored": 760400,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8200433254241943,
+        "nodes_explored": 351047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8142926692962646,
+        "nodes_explored": 355164,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7762761116027832,
+        "nodes_explored": 335596,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8294970989227295,
+        "nodes_explored": 355124,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7385764122009277,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 14,
+        "time": 1.1972675323486328,
+        "nodes_explored": 592167,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6924610137939453,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8093054294586182,
+        "nodes_explored": 355047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7143402099609375,
+        "nodes_explored": 302468,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8666048049926758,
+        "nodes_explored": 347914,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.9392783641815186,
+        "nodes_explored": 311120,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.9477503299713135,
+        "nodes_explored": 434085,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7680387496948242,
+        "nodes_explored": 351230,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7392501831054688,
+        "nodes_explored": 313138,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7280488014221191,
+        "nodes_explored": 301422,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 14,
+        "time": 1.4559571743011475,
+        "nodes_explored": 666081,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7751715183258057,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7772216796875,
+        "nodes_explored": 337482,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6962673664093018,
+        "nodes_explored": 301780,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8246760368347168,
+        "nodes_explored": 356144,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6997420787811279,
+        "nodes_explored": 302468,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.787665605545044,
+        "nodes_explored": 342945,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7792162895202637,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.817610502243042,
+        "nodes_explored": 356943,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7943828105926514,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7428743839263916,
+        "nodes_explored": 313138,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7896890640258789,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.800750732421875,
+        "nodes_explored": 350301,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.781867265701294,
+        "nodes_explored": 335596,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8317399024963379,
+        "nodes_explored": 351482,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7092905044555664,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8014535903930664,
+        "nodes_explored": 360141,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7708358764648438,
+        "nodes_explored": 342507,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 14,
+        "time": 0.9896640777587891,
+        "nodes_explored": 443370,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8086931705474854,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.9691486358642578,
+        "nodes_explored": 453159,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.702655553817749,
+        "nodes_explored": 302468,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 1.5180671215057373,
+        "nodes_explored": 777327,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7756049633026123,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8521263599395752,
+        "nodes_explored": 353564,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7797362804412842,
+        "nodes_explored": 342529,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8069579601287842,
+        "nodes_explored": 359791,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7104790210723877,
+        "nodes_explored": 301422,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 1.2942166328430176,
+        "nodes_explored": 616607,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7188053131103516,
+        "nodes_explored": 311120,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 12,
+        "time": 1.1921985149383545,
+        "nodes_explored": 577767,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7409036159515381,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8261206150054932,
+        "nodes_explored": 359329,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7916092872619629,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8453018665313721,
+        "nodes_explored": 359077,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7755560874938965,
+        "nodes_explored": 335596,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7851142883300781,
+        "nodes_explored": 335479,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.724219799041748,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 10,
+        "time": 0.9988505840301514,
+        "nodes_explored": 457275,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6988444328308105,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8043873310089111,
+        "nodes_explored": 355815,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7118837833404541,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8141732215881348,
+        "nodes_explored": 355124,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8514037132263184,
+        "nodes_explored": 342529,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.9934513568878174,
+        "nodes_explored": 357181,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8064942359924316,
+        "nodes_explored": 352886,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 16,
+        "time": 1.3228182792663574,
+        "nodes_explored": 624406,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.8227460384368896,
+        "nodes_explored": 342529,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 12,
+        "time": 1.11195969581604,
+        "nodes_explored": 514029,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7703053951263428,
+        "nodes_explored": 344248,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8141498565673828,
+        "nodes_explored": 359631,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.6948256492614746,
+        "nodes_explored": 302690,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 20,
+        "time": 1.3329026699066162,
+        "nodes_explored": 618111,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7982964515686035,
+        "nodes_explored": 348674,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8036575317382812,
+        "nodes_explored": 355124,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7134914398193359,
+        "nodes_explored": 311120,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 18,
+        "time": 1.5878396034240723,
+        "nodes_explored": 808272,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7179186344146729,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8281538486480713,
+        "nodes_explored": 355047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 15,
+        "time": 1.6382780075073242,
+        "nodes_explored": 846429,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8105885982513428,
+        "nodes_explored": 350054,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7874939441680908,
+        "nodes_explored": 351047,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8168888092041016,
+        "nodes_explored": 359793,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7874503135681152,
+        "nodes_explored": 351230,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.7917335033416748,
+        "nodes_explored": 339771,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 7,
+        "time": 0.7271430492401123,
+        "nodes_explored": 311342,
+        "nodes_pruned": 0
+      },
+      {
+        "winner": "ai",
+        "moves": 8,
+        "time": 0.8234429359436035,
+        "nodes_explored": 356039,
+        "nodes_pruned": 0
+      }
+    ]
+  }
+}
